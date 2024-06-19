@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Siva Automobiles</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Siva Automobiles" name="keywords">
+    <meta content="Siva Automobiles - Agriculture Spare parts dealer in Tamil Nadu" name="description">
+
+    <!-- Favicon -->
+    <link href="/img/fav.jpg" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+       <!-- Topbar Start -->
+       <div class="container-fluid px-5 d-none d-lg-block">
+        <div class="row gx-5 py-3 align-items-center">
+            <div class="col-lg-3">
+                <div class="d-flex align-items-center justify-content-start">
+                    <i class="bi bi-phone-vibrate fs-1 text-primary me-2"></i>
+                    <h2 class="mb-0">+91 80980 72301</h2>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="d-flex align-items-center justify-content-center">
+                    <a href="index.html" class="navbar-brand ms-lg-5">
+                        <!-- <h1 class="m-0 display-4 text-primary"><span class="text-secondary">Farm</span>Fresh</h1> -->
+                        <img src="./img/logo.png" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="d-flex align-items-center justify-content-start">
+                    <i class="bi bi-envelope fs-1 text-primary me-2"></i>
+                    <a href="mailto:sales@sivaautomobiles.com" style="text-decoration: none; color: inherit;">
+                        <h2 class="mb-0">sales@sivaautomobiles.com</h2>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-primary navbar-dark shadow-sm py-3 py-lg-0 px-3 px-lg-5">
+        <a href="index.html" class="navbar-brand d-flex d-lg-none">
+            <img src="./img/Group 56.png" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav mx-auto py-0">
+                <a href="index.html" class="nav-item nav-link">HOME</a>
+                <a href="about.html" class="nav-item nav-link">ABOUT</a>
+                <a href="service.html" class="nav-item nav-link">CATALOGUE</a>
+                <!-- <a href="product.html" class="nav-item nav-link">PRODUCT</a> -->
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">PRODUCT</a>
+                    <div class="dropdown-menu m-0">
+                        <a href="Combine.html" class="dropdown-item">Combine Harvester</a>
+                        <a href="Agriculture.html" class="dropdown-item">Agriculture Parts</a>
+                        <a href="Rotavator.html" class="dropdown-item">Rotavator Parts</a>
+                        <a href="Harvester.html" class="dropdown-item">Harvester Parts</a>
+                       
+                        <a href="Claas.html" class="dropdown-item">CLAAS Products</a>
+                       
+                    </div>
+                </div>
+                <a href="contact.html" class="nav-item nav-link">CONTACT</a>
+            </div>
+        </div>
+    </nav>
+    
+   
+    <!-- Navbar End -->
+
+    <!-- Hero Start -->
+    <div class="container-fluid bg-primary py-5 bg-hero3 mb-5">
+        <div class="container py-5">
+            <div class="row justify-content-start">
+                <div class="col-lg-8 text-center text-lg-start">
+                    <h1 class="display-1 text-white mb-md-4">Contact Us</h1>
+                    <!-- <a href="" class="btn btn-primary py-md-3 px-md-5 me-3">Home</a>
+                    <a href="" class="btn btn-secondary py-md-3 px-md-5">Contact Us</a> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Hero End -->
+
+
+    <!-- Contact Start -->
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="mx-auto  mb-5" >
+                <h6 class="text-primary text-uppercase">Connect with Us</h6>
+                <h1 class="display-5 text-black">Please Feel Free To Contact Us</h1>
+            </div>
+            <div class=" g-0 contact-container">
+                <div class="contact-form">
+                    <div class="bg-primary h-100 p-5">
+                        <form id="contactForm" onsubmit="sendEmail(event)">
+                            <div class="row g-3">
+                                <div class="col-6">
+                                    <input type="text" name="name" id="name" class="form-control bg-light border-0 px-4" placeholder="Your Name" style="height: 55px;">
+                                </div>
+                                <div class="col-6">
+                                    <input type="email" name="email" id="email" class="form-control bg-light border-0 px-4" placeholder="Your Email" style="height: 55px;">
+                                </div>
+                                <div class="col-12">
+                                    <input type="text" name="product_name" id="product_name" class="form-control bg-light border-0 px-4" placeholder="Product Name" style="height: 55px;">
+                                </div>
+                                <div class="col-12">
+                                    <textarea name="message" id="message" class="form-control bg-light border-0 px-4 py-3" rows="2" placeholder="Enquiry Details"></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn btn-secondary py-3" type="submit">Send Message</button>
+                                </div>
+                            </div>
+                        </form>
+                        
+                    </div>
+                </div>
+                <div class="contact-address">
+                    <div class="bg-primary1 h-100 p-10">
+                        <h2 class="text-white mb-4">Get In Touch</h2>
+                        <div class="d-flex mb-4">
+                            <div class="bg-primary rounded-circle d-flex align-items-center justify-content-center contact-icon" >
+                                <i class="bi bi-geo-alt  text-white contact-i"></i>
+                            </div>
+                            <div class="ps-3">
+                                <h5 class="text-white contact-head">Our Office</h5>
+                                <span class="text-white contact-text"> 28/3E,Kopiralayam Road, Mannargudi, Tiruvarur,</span>
+                             <p class="text-white">Tamilnadu -614001 </p>
+                            </div>
+                        </div>
+                        <div class="d-flex mb-4">
+                            <div class="bg-primary rounded-circle d-flex align-items-center justify-content-center contact-icon" >
+                                <i class="bi bi-envelope-open  text-white contact-i"></i>
+                            </div>
+                            <div class="ps-3">
+                                <h5 class="text-white contact-head">Email Us</h5>
+                                <span class="text-white contact-text">sales@sivaautomobiles.com</span>
+                            </div>
+                        </div>
+                        <div class="d-flex">
+                            <div class="bg-primary rounded-circle d-flex align-items-center justify-content-center contact-icon" >
+                                <i class="bi bi-phone-vibrate  text-white contact-i"></i>
+                            </div>
+                            <div class="ps-3">
+                                <h5 class="text-white contact-head">Call Us</h5>
+                                <span class="text-white contact-text">+91 80980 72301</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-footer bg-primary text-white mt-5">
+        <div class="container">
+            <div class=" footer-container">
+                <div class="footer-icon">
+                    <img src="./img/Group 56.png" alt="Logo" class="img-fluid mb-4">
+                </div>
+                <div class="footer-address">
+                    <div class="footer-address-container">
+                        <h4 class="text-white">Get In Touch</h4>
+                        <div class="footer-address-content">
+                            <i class="bi bi-geo-alt text-white "></i>
+                            <p class="text-white ">28/3E, Kopiralayam Road, Mannargudi, Tiruvarur, Tamilnadu -614001
+                            </p>
+                        </div>
+                        <div class="footer-address-contact">
+                            <div class="footer-address-content">
+                                <i class="bi bi-envelope-open text-white "></i>
+                                <p class="text-white ">info@sivaautomobiles.com</p>
+                            </div>
+                            <div class="footer-address-content">
+                                <i class="bi bi-telephone text-white "></i>
+                                <p class="text-white ">+91 80980 72301</p>
+                            </div>
+                        </div>
+                       
+
+                    </div>
+                </div>
+                <div class="footer-social">
+                    <a class="btn btn-secondary btn-square rounded-circle me-2" href="#"><i
+                            class="fab fa-twitter"></i></a>
+                    <a class="btn btn-secondary btn-square rounded-circle me-2" href="#"><i
+                            class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-secondary btn-square rounded-circle me-2" href="#"><i
+                            class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-secondary btn-square rounded-circle" href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container-fluid bg-yellow text-white py-4">
+        <div class="container text-center">
+            <p class="mb-0 text-black" >&copy; <a class="text-black " href="#">SivaAutomobiles</a>. All Rights Reserved
+                <a class="text-black " href="https://htmlcodex.com">Designed by C2V Technology</a></p>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-green  back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
